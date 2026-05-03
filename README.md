@@ -1,4 +1,4 @@
-### 📊 Database Architecture
+### 📊 Architettura Database
 Il sistema implementa un'architettura relazionale solida per la gestione del flusso di vendita:
 
 *   **Customer ↔ Orders (1:N):** Ogni ordine è associato a un singolo cliente, garantendo la tracciabilità degli acquisti.
