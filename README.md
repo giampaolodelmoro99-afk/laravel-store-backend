@@ -1,5 +1,5 @@
-### 📊 Architettura del Database
-Il progetto implementa i seguenti pattern relazionali:
+### 📊 Database Architecture
+Il sistema implementa un'architettura relazionale solida per la gestione del flusso di vendita:
 
-- **One-to-Many (1:N):** Gestione di Customer -> Orders, dove ogni elemento appartiene a una singola entità genitore.
-- **Many-to-Many (N:M):** Gestione di Orders <-> Products, implementata tramite tabelle pivot ottimizzate.
+*   **Customer ↔ Orders (1:N):** Ogni ordine è associato a un singolo cliente, garantendo la tracciabilità degli acquisti.
+*   **Orders ↔ Products (N:M):** Relazione complessa gestita tramite tabella pivot `order_product`, ottimizzata per gestire carrelli multi-prodotto.
